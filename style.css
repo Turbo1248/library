@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0
+}
+
+#header-container {
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr);
+  border: 1px solid black;
+  width: 600px;
+}
+
+#container {
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr);
+  border: 1px solid black;
+  width: 600px;
+}
+
+.title {
+  color: blue;
+  grid-columns: 1;
+}
+
+.author {
+  color: red;
+  grid-columns: 2;
+}
+
+.read {
+  color: green;
+  grid-columns: 3;
+}
+
+#title-header {
+  color: blue;
+  grid-columns: 1;
+}
+
+#author-header {
+  color: red;
+  grid-columns: 2;
+}
+
+#read-header {
+  color: green;
+  grid-columns: 3;
+}
+
+.read-button {
+  grid-columns: 4;
+}
+
+.delete-button {
+  grid-columns: 5;
+}
